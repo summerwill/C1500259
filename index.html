@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="和菓本舖"/>
+<meta name="description" content="日本進口零食"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initia;-scale=1">
+<link rel="stylesheet" href="main.css">
+<title>和菓本舖</title>
+</head>
+
+<body>
+<div class="container">
+<div class="header">
+<div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+  <div class="meun">
+   <ul>
+      <li><a href="index.html" >商品專區</a></li>
+      <li><a href="member.html">會員中心</a></li>
+      <li><a href="">聯絡我們</a></li>
+   </ul>
+   </div><!--meun-->
+   <div class="run"><img src="images/Triangle.png"></div>
+  <div class="member"><a href="#"><img src="images/member.png"></a></div>
+  <div class="cart"><a href="#"><img src="images/cart.png"></a></div>
+  
+  </div><!-- header -->
+  <div class="submenu"> 
+  <ul>
+    <li><a href="pro_intro.html">期間限定商品</a></li>
+    <li><a href="#">人氣商品系列</a></li>
+    <li><a href="#">地方限定商品</a></li>
+  </ul></div>
+ 
+
+
+<div class="header_btm"><img src="images/header_btm.gif"></div>
+
+<div class="nav">
+<div id="searchbox">
+  <form id="searchbox" action="">
+    <input id="search" type="text" placeholder="輸入商品名稱...">
+</form>
+  </div>
+<div class="banner1">
+  <img src="images/ad_01.png">
+  </div>
+<div class="banner2">
+ <img src="images/ad_02.png">
+</div>
+<script>
+
+        var Img=new Array("images/001.png","images/002.jpg","images/004.png","images/005.png");
+        var Img_len=Img.length;  // 圖檔數量        
+        var i=0;                //起始照片0,banner-3.jpg
+        
+        function showImg(){
+            document.getElementById("pic").innerHTML="<img src='"+Img[i]+"' width=700 height=320>";
+            	i++;
+            	if(i>=Img_len) i=0; 
+        }
+		setInterval("showImg()",2500);//2.5秒執行一次
+
+
+	</script>
+<div id="pic"></div>
+</div><!-- nav -->
+<div class="pro_back">
+ <div class="pro_front">
+  <div class="between">
+    <img src="images/between.gif"><div class="lit">(限店內販售)</div>
+	<div class="btn_pro1"><img src="images/01.png"><span id="na_price"><a href="prod_cont.html">Pocky 格力高冬季限定巧克力棒(62g)<br>售價</a></span><span class="price">$69</span></div>
+	<div class="btn_pro2"><img src="images/04.png"><span id="na_price2">Calbee 紅番薯條(56g)<br>售價</span><span class="price2">$40</span></div>
+	<div class="btn_pro3"><img src="images/09.png"><span id="na_price3">Meiji 柳橙餅乾(6包)<br>售價</span><span class="price3">$64</span></div>
+	<div class="btn_pro4"><img src="images/10.png"><span id="na_price4">Calbee 梅子口味(60g)<br>售價</span><span class="price4">$34</span></div>
+  </div>
+  <div class="hitto">
+     <img src="images/hitto.gif">
+	 <div class="btn_pro11"><img src="images/02.png"><span id="na_price5">Jagabee 薯條奶油醬油味(40g)<br>售價</span><span class="price5">$35</span></div>
+	 <div class="btn_pro21"><img src="images/03.png"><span id="na_price5">Pure 鮮果實軟糖-佐藤錦櫻桃(63g)<br>售價</span><span class="price6">$42</span></div>
+	 <div class="btn_pro31"><img src="images/05.png"><span id="na_price5">Calbee 幸福奶油洋芋片(60g)<br>售價</span><span class="price7">$31</span></div>
+	 <div class="btn_pro41"><img src="images/06.png"><span id="na_price6">六花亭 草莓白巧克力<br>售價</span><span class="price8">$375</span></div>
+  </div><!-- hitto -->
+  <div class="local">
+     <img src="images/local.gif">
+     <div class="btn_pro12"><img src="images/13.png"><span id="na_price5">Calbee a.ra洋芋片醬油口味(72g)<br>售價</span><span class="price9">$38</span></div>
+	 <div class="btn_pro22"><img src="images/14.png"><span id="na_price10">UHA 味覺糖 <br>售價</span><span class="price10">$148</span></div>
+	 <div class="btn_pro32"><img src="images/12.png"><span id="na_price11">北海道薯條三兄弟 <br>售價</span><span class="price11">$385</span></div>
+	 <div class="btn_pro42"><img src="images/07.png"><span id="na_price12">しかまろ君 餅乾<br>售價</span><span class="price12">$145</span></div>
+  </div>
+ </div>
+ <div class="top"><a href="#"><img src="images/top.png"></a></div>
+</div>
+<div class="footer"><img src="images/footer.png"></div>
+<div class="footer_con"><p>和菓本舖日本進口零食專門店</p>
+<div class="icon_mark"><ul>
+ <li><a href="#"><img src="images/Facebook.png"></a></li>
+ <li><a href="#"><img src="images/Instagram.png"></a></li>
+ <li><a href="#"><img src="images/Twitter.png"></a></li>
+</ul></div>
+ <span id="time">營業時間: AM:10:00-PM:22:00</span>
+ <span id="copy">Copyright &#169; 2015 Waokashi All rights reserved.</span>
+ </div>
+</div><!--container-->
+</body>
+</html>
